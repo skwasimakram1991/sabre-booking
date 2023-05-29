@@ -1,0 +1,287 @@
+@media (max-width:900px) {
+    .slim-container a.slimNav_sk78-reveal {
+        color: #000 !important;
+    }
+    .slim-container a.slimNav_sk78-reveal span {
+        background: #000 !important;
+    }
+    header div#navigation {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        right: 0;
+        width: 100%;
+    }
+    header .menu-area {
+        padding: 10px 0;
+        position: relative;
+    }
+    .slim-container .slim-bar {
+        background: none !important;
+    }
+    header div#navigation ul {
+        flex-direction: column;
+    }
+    header div#navigation ul li a {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 0;
+        border-color: #9d9d9d;
+    }
+    .slim-container .slim-nav {
+        background: #fff !important;
+    }
+    header ul.user-sec {
+        position: absolute;
+        top: 14px;
+        right: 60px;
+        z-index: 999999999;
+    }
+    header .main-logo a {
+        position: relative;
+        display: table;
+        z-index: 999999999;
+    }
+    header .main-logo a img {
+        max-height: 30px;
+    }
+    section.body-cont3 a.more-btn2 {
+        width: 100%;
+    }
+    .src-pop .modal-dialog {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    header .top-part {
+        padding: 5px 0;
+    }
+    header .top-part p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    section.banner-part .slider .decp {
+        bottom: 38px;
+    }
+    section.banner-part .slider h2 {
+        font-size: 22px;
+        line-height: normal;
+        margin: 0;
+    }
+    section.banner-part .slider h5 {
+        font-size: 14px;
+        line-height: normal;
+        margin: 0 0 4px;
+    }
+    section.banner-part .slider p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+    section.banner-part .line {
+        width: 2px;
+        height: 25px;
+        bottom: 6px;
+    }
+    section.body-cont1 {
+        padding: 20px 0;
+    }
+    section.body-cont1 img.img1 {
+        display: none;
+    }
+    section.body-cont1 h2 {
+        font-size: 30px;
+        line-height: normal;
+        text-align: center;
+        margin: 30px 0 10px;
+    }
+    section.body-cont1 h5 {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+    section.body-cont1 p {
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 0 25px;
+        text-align: center;
+    }
+    section.body-cont1 a {
+        font-size: 17px;
+        line-height: 37px;
+        padding: 0px 40px;
+        margin: 0 auto;
+    }
+    section.body-cont2 h2 {
+        font-size: 25px;
+        line-height: normal;
+        margin: 0 0 8px;
+    }
+    section.body-cont2 p {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 11px 0 4px;
+    }
+    section.body-cont2 h4 {
+        margin: 0 0 10px;
+    }
+    section.body-cont2 h4 span {
+        font-size: 17px;
+    }
+    section.body-cont2 ul {
+        margin: 0 0 20px;
+    }
+    section.body-cont2 ul li i {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    section.body-cont3 {
+        padding: 20px 0;
+    }
+    section.body-cont3 .wrap h2 {
+        font-size: 19px;
+        line-height: 21px;
+        margin: 0;
+    }
+    section.body-cont3 .wrap h4 {
+        font-size: 21px;
+        line-height: 21px;
+        margin: 10px 0;
+    }
+    section.body-cont3 .wrap p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 7px;
+    }
+    section.body-cont3 .wrap a {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 16px;
+    }
+    section.body-cont3 a.more-btn {
+        margin: 15px 0;
+    }
+    section.body-cont4 h2 {
+        font-size: 22px;
+        line-height: normal;
+        margin: 0 0 32px;
+    }
+    section.body-cont4 p {
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+    }
+    section.body-cont4 h4 {
+        font-size: 25px;
+        line-height: 31px;
+        margin: 16px 0 18px;
+        text-align: center;
+    }
+    section.body-cont4 input:not([type="submit"]),
+    section.body-cont4 textarea {
+        margin: 0 0 15px;
+    }
+    section.body-cont4 input[type="submit"] {
+        padding: 12px 40px;
+        font-size: 16px;
+        display: table;
+        margin: 0 auto;
+    }
+    footer {
+        margin: 35px 0 0;
+    }
+    footer .sec1 {
+        background: #F7F6F6;
+        border-radius: 16px;
+        padding: 25px;
+    }
+    footer h2 {
+        font-size: 16px;
+        margin: 0 0 10px;
+    }
+    footer ul.menu {
+        margin: 0 0 30px;
+    }
+    footer p {
+        text-align: center;
+    }
+    footer h6 {
+        margin: 12px 0;
+        padding: 0 10px;
+    }
+    section.body-cont3 a.more-btn2 {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    section.banner-part .slider .decp {
+        bottom: 100px;
+    }
+    section.banner-part .slider h2 {
+        font-size: 46px;
+        line-height: 51px;
+    }
+    section.banner-part .slider h5 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 9px;
+    }
+    section.body-cont1 {
+        padding: 30px 0;
+    }
+    section.body-cont1 h2 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    section.body-cont1 h5 {
+        font-size: 16px;
+        margin: 0 0 16px;
+    }
+    section.body-cont1 p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0 0 21px;
+    }
+    section.body-cont1 img.img1 {
+        max-width: 113px;
+    }
+    section.body-cont2 h2 {
+        font-size: 45px;
+        margin: 0 0 7px;
+    }
+    section.body-cont3 a.more-btn img {
+        width: 100%;
+    }
+    section.body-cont3 a.more-btn {
+        margin: 30px 0;
+    }
+    section.body-cont4 h2 {
+        font-size: 44px;
+        margin: 0 0 26px;
+    }
+    footer h2 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+    section.body-cont1 h2 {
+        font-size: 44px;
+    }
+    section.body-cont2 h2 {
+        font-size: 63px;
+    }
+    section.body-cont4 h2 {
+        font-size: 55px;
+        line-height: 78px;
+    }
+    footer .container {
+        max-width: 100%;
+    }
+    footer h2 {
+        font-size: 15px;
+    }
+}
