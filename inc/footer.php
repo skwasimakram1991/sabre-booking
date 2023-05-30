@@ -1,75 +1,94 @@
 <footer>
     <div class="container">
-        <div class="sec1">
-            <div class="row">
-                <div class="col-lg-2 offset-lg-1 col-md">
-                    <h2>Useful Links</h2>
-                    <ul class="menu">
-                        <li><a href="#">Become an Affiliate</a></li>
-                        <li><a href="#">Are you a fashion blogger?</a></li>
-                        <li><a href="#">Partner with Vogacloset</a></li>
-                        <li><a href="#">Refer a friend</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Terms and Conditions</a></li>
-                        <li><a href="#">Size Guides</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 offset-lg-1 col-md">
-                    <h2>Customer Service</h2>
-                    <ul class="menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Shipping and Delivery</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Privacy and Security</a></li>
-                        <li><a href="#">Payment and Promotions</a></li>
-                        <li><a href="#">Returns and Refunds</a></li>
-                        <li><a href="#">Cookie Declaration</a></li>
-                        <li><a href="#">Cookie Settings</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4  offset-lg-1 col-md-5">
-                    <h2>Subscribe</h2>
-                    <form action="">
-                        <input type="text" placeholder="Email@example.cpm">
-                        <input type="submit" value="JOIN">
-                    </form>
-                    <p>Subscribe to our newsletter to stay up-to-date on exclusive offers and latest trends</p>
-                </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <ul class="ft-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Today’s Deals</a></li>
+                    <li><a href="#">Inspire Me</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                 <ul class="ft-menu">
+                    <li>IATA Number: 96636816</li>
+                    <li>STB Travel Agency License Number: 03434</li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <p>328 North Bridge Road, #02-20 Raffles Hotel Arcade, Singapore 188719</p>
+                <ul class="icons">
+                   <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                   <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                <ul class="trem">
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <h6>© 2023 by Wonder Golander (S) Pte Ltd</h6>
             </div>
         </div>
     </div>
-    <h6>© 2022 The Genuine Article. The Genuine Article is a Registered Trademark. All Rights Reserved.</h6>
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.slimNav_sk78.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
     $('#navigation nav').slimNav_sk78();
-    var owl = $('.slider');
+
+    var owl = $('.trending-cara');
     owl.owlCarousel({
         autoPlay: 4000, //Set AutoPlay to 3 seconds
         items: 1,
         false: true,
         dots: true,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
+        margin:50,
         autoplayTimeout: 4000,
-    }); 
-  
-  
+    });
+
+
     $('.accordion').find('.accordion-toggle').click(function() {
-		$(this).next().slideToggle('600');
-		$(".accordion-content").not($(this).next()).slideUp('600');
-	});
-	$('.accordion-toggle').on('click', function() {
-		$(this).toggleClass('active').siblings().removeClass('active');
-	});
-}); 
+        $(this).next().slideToggle('600');
+        $(".accordion-content").not($(this).next()).slideUp('600');
+    });
+    $('.accordion-toggle').on('click', function() {
+        $(this).toggleClass('active').siblings().removeClass('active');
+    });
+});
+</script>
+
+<script>
+$(function() {
+    $('input[name="daterange"]').daterangepicker({
+        opens: 'left',
+         autoUpdateInput: true,
+     
+    }, function(start, end, label) {
+        console.log("A new date selection was made: " + start.format('MMMM D, YYYY') + ' to ' + end
+            .format('MMMM D, YYYY'));
+    }); 
+    
+});
 </script>
 
 </body>
+
 </html>
