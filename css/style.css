@@ -63,7 +63,7 @@ header div#navigation ul a {
   font-weight: 500;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 20px;
   font-family: "Jost", sans-serif;
 }
@@ -86,19 +86,19 @@ header ul.user-sec li a {
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 20px;
   font-family: "Jost", sans-serif;
 }
 header ul.user-sec li:last-child a {
-  background: #BD965C;
+  background: #bd965c;
   border-radius: 30px;
   line-height: 45px;
   padding: 0 32px;
   display: table;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   max-width: 148px;
   text-align: center;
@@ -125,7 +125,7 @@ section.banner-part h2 {
   font-size: 40px;
   line-height: 58px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 15px;
 }
 section.banner-part p {
@@ -133,7 +133,7 @@ section.banner-part p {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 636px;
   margin: 0 auto 78px;
 }
@@ -148,7 +148,7 @@ section.banner-part form label {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
-  color: #A4A4A4;
+  color: #a4a4a4;
   margin: 0 0 5px;
   text-align: left;
   display: block;
@@ -175,13 +175,13 @@ section.banner-part form input[type=submit] {
   position: absolute;
   top: 0;
   right: 0;
-  background: #BD965C;
+  background: #bd965c;
   border-radius: 0px 30px 30px 0px;
   border: none;
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 148px;
   width: 100%;
   height: 100%;
@@ -201,7 +201,7 @@ section.body-cont1 h2 {
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   display: table;
   margin: 0 auto 60px;
@@ -226,7 +226,7 @@ section.body-cont1 .trending-cara .item .img-wrap:before {
   content: "";
   width: 80%;
   height: 100%;
-  background: #C2D0E4;
+  background: #c2d0e4;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -238,27 +238,27 @@ section.body-cont1 .trending-cara .item h3 {
   font-weight: 600;
   font-size: 40px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 28px;
 }
 section.body-cont1 .trending-cara .item p {
   font-weight: 300;
   font-size: 20px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 10px;
 }
 section.body-cont1 .trending-cara .item h5 {
   font-weight: 400;
   font-size: 20px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 16px;
   font-family: "Jost", sans-serif;
 }
 section.body-cont1 .trending-cara .item .sp-offer {
   background: rgba(255, 255, 255, 0.1);
-  border: 1px dashed #FFFFFF;
+  border: 1px dashed #ffffff;
   border-radius: 4px;
   max-width: 431px;
   float: right;
@@ -288,7 +288,7 @@ section.body-cont1 .trending-cara .item .sp-offer ul li {
   font-weight: 600;
   font-size: 16px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   list-style-type: disc;
   margin: 0 0 8px;
   font-family: "Jost", sans-serif;
@@ -299,7 +299,7 @@ section.body-cont1 .trending-cara .item h4 {
   font-size: 40px;
   line-height: 36px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 28px;
   font-family: "Jost", sans-serif;
 }
@@ -307,13 +307,13 @@ section.body-cont1 .trending-cara .item h4 span {
   font-size: 16px;
 }
 section.body-cont1 .trending-cara .item a.book-btn {
-  background: #0047AB;
+  background: #0047ab;
   border-radius: 100px;
   display: inline-block;
   line-height: 46px;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 158px;
   width: 100%;
   text-align: center;
@@ -355,7 +355,7 @@ section.body-cont1 .trending-cara .owl-dots button.owl-dot::after {
   position: absolute;
   font-weight: 600;
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Jost", sans-serif;
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -378,7 +378,7 @@ section.body-cont1 a.Browse-btn {
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   float: right;
   margin-top: -40px;
   z-index: 999;
@@ -394,7 +394,7 @@ section.body-cont2 h2 {
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  color: #343D4D;
+  color: #343d4d;
   display: table;
   margin: 0 auto 28px;
   position: relative;
@@ -403,7 +403,7 @@ section.body-cont2 h2:after {
   content: "";
   width: 53px;
   height: 2px;
-  background: #BD965C;
+  background: #bd965c;
   position: absolute;
   left: 0;
   right: 0;
@@ -415,7 +415,7 @@ section.body-cont2 h6 {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #343D4D;
+  color: #343d4d;
   max-width: 642px;
   margin: 0 auto 60px;
 }
@@ -456,12 +456,12 @@ section.body-cont2 p {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #343D4D;
+  color: #343d4d;
   margin: 0 0 20px;
   min-height: 100px;
 }
 section.body-cont2 a.Explore-btn {
-  background: #0047AB;
+  background: #0047ab;
   border-radius: 100px;
   margin: 0 auto 60px;
   display: table;
@@ -469,7 +469,7 @@ section.body-cont2 a.Explore-btn {
   font-size: 20px;
   line-height: 46px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0 35px;
   font-family: "Jost", sans-serif;
 }
@@ -483,7 +483,7 @@ section.body-cont3 h2 {
   font-weight: 300;
   font-size: 36px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 28px;
 }
 section.body-cont3 p {
@@ -491,11 +491,11 @@ section.body-cont3 p {
   font-size: 20px;
   line-height: 26px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 40px;
 }
 section.body-cont3 a {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 30px;
   display: inline-block;
   line-height: 46px;
@@ -504,7 +504,7 @@ section.body-cont3 a {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Jost", sans-serif;
 }
 
@@ -516,7 +516,7 @@ section.body-cont4 h2 {
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  color: #BD965C;
+  color: #bd965c;
   display: table;
   margin: 0 auto 60px;
   position: relative;
@@ -525,7 +525,7 @@ section.body-cont4 h2:after {
   content: "";
   width: 80%;
   height: 2px;
-  background: #BD965C;
+  background: #bd965c;
   position: absolute;
   left: 0;
   right: 0;
@@ -549,7 +549,7 @@ section.body-cont5 h2 {
   font-size: 36px;
   line-height: 36px;
   text-align: center;
-  color: #BD965C;
+  color: #bd965c;
   display: table;
   margin: 0 auto 28px;
   position: relative;
@@ -558,7 +558,7 @@ section.body-cont5 h2:after {
   content: "";
   width: 80%;
   height: 2px;
-  background: #BD965C;
+  background: #bd965c;
   position: absolute;
   left: 0;
   right: 0;
@@ -570,7 +570,7 @@ section.body-cont5 p {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #343D4D;
+  color: #343d4d;
   margin: 0 0 60px;
 }
 section.body-cont5 form {
@@ -578,14 +578,14 @@ section.body-cont5 form {
   margin: 0 auto;
 }
 section.body-cont5 form input:not([type=submit]) {
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-radius: 30px;
   width: 100%;
   padding: 15px 16px;
   margin: 0 0 20px;
 }
 section.body-cont5 input[type=submit] {
-  background: #BD965C;
+  background: #bd965c;
   border-radius: 30px;
   border: none;
   max-width: 155px;
@@ -593,7 +593,7 @@ section.body-cont5 input[type=submit] {
   line-height: 46px;
   font-weight: 400;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 15px 0 0;
 }
 
@@ -605,12 +605,12 @@ footer ul.ft-menu li {
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: table;
   margin: 0 0 11px;
 }
 footer ul.ft-menu li a {
-  color: #FFFFFF;
+  color: #ffffff;
   display: table;
 }
 footer ul.icons {
@@ -622,7 +622,7 @@ footer ul.icons li {
   margin-right: 20px;
 }
 footer ul.icons li a {
-  background: #FFFFFF;
+  background: #ffffff;
   width: 50px;
   height: 50px;
   display: table;
@@ -636,7 +636,7 @@ footer p {
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 306px;
 }
 footer ul.trem {
@@ -650,11 +650,11 @@ footer ul.trem li {
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: table;
 }
 footer ul.trem li a {
-  color: #FFFFFF;
+  color: #ffffff;
   display: table;
 }
 footer h6 {
@@ -662,6 +662,878 @@ footer h6 {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
+}
+
+.banner_breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_breadcrumb li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+  font-family: "Jost";
+}
+.banner_breadcrumb li:before {
+  content: ">";
+  display: inline-block;
+  margin: 0 10px;
+  color: #bd965c;
+}
+.banner_breadcrumb li:first-child:before {
+  display: none;
+}
+.banner_breadcrumb li:last-child:before {
+  color: #fff;
+}
+.banner_breadcrumb li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #bd965c;
+  position: relative;
+  font-family: "Jost";
+}
+
+.banner_back {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  font-family: "Jost";
+  display: flex;
+  position: absolute;
+  top: 110px;
+}
+.banner_back:hover {
+  color: white;
+}
+.banner_back img {
+  width: 18px !important;
+  margin: 0 5px 0 0;
+}
+
+.destination .scrollmagic-pin-spacer {
+  height: 100%;
+}
+.destination .col-md-6:first-child {
+  background-color: #002455;
+}
+.destination .col-md-6:last-child {
+  padding: 0;
+}
+.destination .fixedelm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(50%);
+  transition: all 0.5s ease-in-out;
+  top: 0;
+}
+.destination .fixedelm h3 {
+  max-width: 339px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-family: "Jost";
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 25px;
+  padding-bottom: 8px;
+}
+.destination .fixedelm h3:after {
+  content: "";
+  position: absolute;
+  width: 263px;
+  background-color: #bd965c;
+  height: 1px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.destination .fixedelm p {
+  max-width: 504px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  /* or 150% */
+  text-align: center;
+}
+.destination .fixedelm p:last-child {
+  padding-bottom: 0;
+}
+.destination.sticky .fixedelm {
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.destination .normalelm .img-sec {
+  display: table;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.destination .normalelm .img-sec img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.destination .normalelm .img-sec:after {
+  content: "";
+  background: rgba(11, 19, 33, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.destination .normalelm .img-sec:hover img {
+  transform: scale(1.2);
+}
+.destination .normalelm .img-sec .desp {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.destination .normalelm .img-sec .desp h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.destination .normalelm .img-sec .desp h6 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.destination .normalelm .img-sec .desp .btn {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  display: inline-block;
+  line-height: 31px;
+  max-width: 112px;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+}
+
+.destination_single {
+  padding: 80px 0;
+}
+.destination_single .col-md-4 {
+  margin-top: 40px;
+}
+.destination_single .col-md-4:nth-child(1), .destination_single .col-md-4:nth-child(2), .destination_single .col-md-4:nth-child(3) {
+  margin-top: 0;
+}
+.destination_single a.img-sec {
+  display: table;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.destination_single a.img-sec img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.destination_single a.img-sec:after {
+  content: "";
+  background: linear-gradient(180deg, rgba(11, 19, 33, 0) 61.71%, rgba(11, 19, 33, 0.88) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.destination_single a.img-sec:hover img {
+  transform: scale(1.2);
+}
+.destination_single a.img-sec .desp {
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  z-index: 1;
+}
+.destination_single a.img-sec .desp h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.destination_single a.img-sec .desp h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.dest_hotels {
+  padding: 40px 0 80px;
+}
+.dest_hotels .dest_hotelformrow {
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.dest_hotels .dest_hotelformrow form {
+  display: flex;
+  justify-content: space-between;
+}
+.dest_hotels .dest_hotelformrow form .formright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.dest_hotels .dest_hotelformrow form .search {
+  position: relative;
+}
+.dest_hotels .dest_hotelformrow form .search input[type=text] {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  text-align: left;
+  padding: 10px 128px 10px 28px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343d4d;
+  width: 100%;
+}
+.dest_hotels .dest_hotelformrow form .search input[type=submit] {
+  background: #bd965c;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 4.5px 35px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  border: none;
+  color: #ffffff;
+}
+.dest_hotels .dest_hotelformrow form .search ::-moz-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343d4d;
+}
+.dest_hotels .dest_hotelformrow form .search ::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #343d4d;
+}
+.dest_hotels .dest_hotelformrow form .btn {
+  padding: 11px 20px;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+}
+.dest_hotels .dest_hotelformrow form .btn i {
+  margin-right: 14px;
+}
+.dest_hotels .dest_hotelformrow form select {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 12px 40px 12px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../images/down-arrow2.svg) no-repeat 0 0 #fff;
+  background-position: right 24px center;
+  max-width: 217px;
+  width: 100%;
+}
+.dest_hotels .hotel_num {
+  margin-bottom: 28px;
+}
+.dest_hotels .hotel_num p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #343d4d;
+}
+.dest_hotels .hotel_list h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  color: #000000;
+  margin-bottom: 30px;
+}
+.dest_hotels .hotel_list h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #757575;
+  opacity: 0.75;
+  margin-bottom: 24px;
+}
+.dest_hotels .hotel_list h6 i {
+  color: black;
+  opacity: 1;
+}
+.dest_hotels .hotel_list .expanded_list {
+  display: flex;
+  gap: 15px;
+}
+.dest_hotels .hotel_list .expanded_list ul {
+  margin-bottom: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 460px;
+}
+.dest_hotels .hotel_list .expanded_list ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #757575;
+}
+.dest_hotels .hotel_list .expanded_list ul li::before {
+  content: ".";
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  font-size: 50px;
+  margin: -13px 10px 0 0;
+}
+.dest_hotels .hotel_list .expanded_list ul li:nth-child(n+5) {
+  display: none;
+}
+.dest_hotels .hotel_list .expanded_list a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+}
+.dest_hotels .hotel_list .code_price {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dest_hotels .hotel_list .code_price .code {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+  background: rgba(0, 71, 171, 0.25);
+  border-radius: 24px;
+  padding: 6px 9px;
+}
+.dest_hotels .hotel_list .code_price .price h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+  color: #757575;
+  margin-bottom: 0;
+}
+.dest_hotels .hotel_list .code_price .price h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  text-align: right;
+  /* Blue */
+  color: #0047ab;
+}
+.dest_hotels .hotel_list .btn {
+  display: block;
+  /* Gold */
+  background: #bd965c;
+  border-radius: 30px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.dest_hotels .hotel_list .hotel-row-repeater {
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.dest_hotels .hotel_list .hotel-row-repeater:last-child {
+  margin-bottom: 0;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel-img {
+  overflow: hidden;
+  position: relative;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 406px;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel-img .slider-thumb {
+  position: absolute;
+  bottom: 15px;
+  max-width: 466px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel-img .slider-thumb .slick-track {
+  display: flex !important;
+  justify-content: space-between;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel-img .slider-thumb img {
+  width: 58px !important;
+  min-height: inherit;
+  cursor: pointer;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel_txt {
+  width: 100%;
+  padding: 42px;
+  padding-left: 25px;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel_txt .hotel_name {
+  display: flex;
+  justify-content: space-between;
+}
+.dest_hotels .hotel_list .hotel-row-repeater .hotel_txt .hotel_name .rating {
+  flex: 1 0 79px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.dest_hotels .pagination {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.dest_hotels .pagination ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+.dest_hotels .pagination ul li {
+  flex: 1 0 31px;
+}
+.dest_hotels .pagination ul li a {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  /* White */
+  color: #757575;
+  padding: 5px 11px;
+  background: transparent;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.dest_hotels .pagination ul li.active a, .dest_hotels .pagination ul li:hover a {
+  background-color: #bd965c;
+  color: white;
+}
+.dest_hotels .pagination ul li.first a, .dest_hotels .pagination ul li.last a {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  /* Blue */
+  color: #0047ab;
+}
+.dest_hotels .pagination ul li.first a:hover, .dest_hotels .pagination ul li.last a:hover {
+  color: white;
+}
+
+.collection {
+  padding: 80px 0;
+}
+.collection .link {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  color: #bd965c;
+  margin-top: 40px;
+  display: inline-block;
+}
+.collection h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #343d4d;
+}
+.collection h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 389px;
+  height: 2px;
+  background-color: #bd965c;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.collection h2 + p {
+  max-width: 1090px;
+  margin: 0 auto 40px;
+}
+.collection p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #343d4d;
+}
+.collection .col-md-4:nth-child(1) .collection_box, .collection .col-md-4:nth-child(2) .collection_box, .collection .col-md-4:nth-child(3) .collection_box {
+  margin-top: 0;
+}
+.collection .collection_box {
+  margin-top: 40px;
+}
+.collection .collection_box .img-sec {
+  display: table;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.collection .collection_box .img-sec img {
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.collection .collection_box .img-sec:after {
+  content: "";
+  background: linear-gradient(180deg, rgba(11, 19, 33, 0) 61.71%, rgba(11, 19, 33, 0.88) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.collection .collection_box .img-sec:hover img {
+  transform: scale(1.2);
+}
+.collection .collection_box .img-sec .desp {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0 0px 12px 20px;
+}
+.collection .collection_box .img-sec .desp h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  color: white;
+}
+.collection .collection_box .img-sec .desp h4 strong {
+  font-weight: 600;
+}
+.collection .collection_box .img-sec .desp h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  margin-bottom: 8px;
+}
+.collection .collection_box h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.collection .collection_box h3 a {
+  color: #000000;
+}
+.collection .collection_box p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #000000;
+}
+.collection .collection_box p:last-child {
+  margin-bottom: 0;
+}
+
+.todays_details {
+  padding: 80px 0;
+}
+.todays_details h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: #343d4d;
+}
+.todays_details h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 389px;
+  height: 2px;
+  background-color: #bd965c;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.todays_details h2 + p {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.todays_details p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #343d4d;
+}
+.todays_details .hotel_list h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  color: #000000;
+  margin-bottom: 30px;
+}
+.todays_details .hotel_list h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #757575;
+  opacity: 0.75;
+  margin-bottom: 24px;
+}
+.todays_details .hotel_list h6 i {
+  color: black;
+  opacity: 1;
+}
+.todays_details .hotel_list .expanded_list {
+  display: flex;
+  gap: 15px;
+}
+.todays_details .hotel_list .expanded_list ul {
+  margin-bottom: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 460px;
+}
+.todays_details .hotel_list .expanded_list ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #757575;
+}
+.todays_details .hotel_list .expanded_list ul li::before {
+  content: ".";
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  font-size: 50px;
+  margin: -13px 10px 0 0;
+}
+.todays_details .hotel_list .expanded_list ul li:nth-child(n+5) {
+  display: none;
+}
+.todays_details .hotel_list .expanded_list a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+}
+.todays_details .hotel_list .code_price {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todays_details .hotel_list .code_price .code {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+  background: rgba(0, 71, 171, 0.25);
+  border-radius: 24px;
+  padding: 6px 9px;
+}
+.todays_details .hotel_list .code_price .price h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+  color: #757575;
+  margin-bottom: 0;
+}
+.todays_details .hotel_list .code_price .price h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  text-align: right;
+  /* Blue */
+  color: #0047ab;
 }/*# sourceMappingURL=style.css.map */

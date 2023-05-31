@@ -46,6 +46,7 @@
 <script src="js/jquery.slimNav_sk78.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -72,8 +73,78 @@ $(document).ready(function() {
     $('.accordion-toggle').on('click', function() {
         $(this).toggleClass('active').siblings().removeClass('active');
     });
+
+    //more and less
+  $(".showBtn").click(function () {
+        var button = $(this);
+        var listContainer = button.prev(".expanded_list ul");
+        var listItems = listContainer.find("li");
+        var numToShow = 4;
+
+        listItems.each(function (index) {
+        if (index >= numToShow) {
+            $(this).toggle(200);
+        }
+        });
+
+        if (button.text() === "Show All 15 Amenities ") {
+        button.text("Show Less Amenities ");
+        } else {
+        button.text("Show All 15 Amenities ");
+        }
+    
+    });
+
+    // $('.hotel_img_slider').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     arrows: false,
+    //     fade: false,
+    //     infinite: false,
+    //     speed: 1000,
+    //     asNavFor: '.slider-thumb',  
+    // });
+    // $('.slider-thumb').slick({
+    //     slidesToShow: 7,
+    //     slidesToScroll:1,
+    //     asNavFor: '.hotel_img_slider',
+    //     dots: false,
+    //     centerMode: false,
+    //     focusOnSelect: true
+    // });
+
+
+
+    $(".hotel-row-repeater").each(function(index) {
+        var rowIndexSlider = "slider" + index;
+        $(this).attr("id", rowIndexSlider);
+
+        // Use the generated id in your jQuery code
+        //alert("#" + rowIndexSlider + " .hotel_img_slider");
+
+        $("#" + rowIndexSlider + " .hotel_img_slider").slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: false,
+            infinite: false,
+            speed: 1000,
+            asNavFor: "#" + rowIndexSlider + " .slider-thumb"  
+        });
+        $("#" + rowIndexSlider + " .slider-thumb").slick({
+            slidesToShow: 7,
+            slidesToScroll:1,
+            asNavFor: "#" + rowIndexSlider + " .hotel_img_slider",
+            dots: false,
+            centerMode: false,
+            focusOnSelect: true
+        });
+    });
 });
+
+
 </script>
+
 
 <script>
 $(function() {
