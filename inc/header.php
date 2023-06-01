@@ -57,7 +57,7 @@
                                 </select>
                             </form>
                         </li>
-                        <li><a href="#">Log in</a></li>
+                        <li><a href="log-in.php">Log in</a></li>
                         <li><a href="#">Join Now</a></li>
                     </ul>
                 </div>

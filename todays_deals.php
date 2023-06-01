@@ -415,7 +415,7 @@
             <div class="col-md-4">
                 <div class="trenddeal_bx">
                     <div class="trendimg">
-                        <img src="images/trending_deals1.jpg" alt="">
+                        <img src="images/trending_deals4.jpg" alt="">
                         <span>Image 12</span>
                     </div>
                     <div class="trenstxt">
@@ -445,7 +445,7 @@
             <div class="col-md-4">
                 <div class="trenddeal_bx">
                     <div class="trendimg">
-                        <img src="images/trending_deals1.jpg" alt="">
+                        <img src="images/trending_deals4.jpg" alt="">
                         <span>Image 12</span>
                     </div>
                     <div class="trenstxt">
