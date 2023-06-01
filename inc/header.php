@@ -121,3 +121,51 @@
             </div>
         </div>
     </div>
+
+
+     
+    <!-- The Modal -->
+    <div class="modal fade src-pop" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Card</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="">card number*</label>
+                                <input type="text" placeholder="4141 5252 7777 0000" class="location">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Exp.Date*</label>  
+                                <input type="date" value="" placeholder="12/27" >
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">CVC*</label>  
+                                <input type="text"  value="" placeholder="123" >
+                            </div>
+                           <div class="col-md-12">
+                             <label for="">name on card*</label>  
+                                <input type="text"  value="" placeholder="john wick" >
+                           </div>
+                            <div class="col-6">
+                                <input type="submit" value="Book Now" class="btn">
+                            </div>
+                            <div class="col-6">
+                                <button type="button" class="btn cancel-btn" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+

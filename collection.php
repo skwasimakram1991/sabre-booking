@@ -146,7 +146,7 @@
             <div class="col-md-4">
                 <div class="collection_box">
                     <a href="#" class="img-sec">
-                        <img src="images/collection_2.jpg" alt="">
+                        <img src="images/collection_5.jpg" alt="">
                     </a>
                     <h3><a href="#?">Time to Hit the Links</a></h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Dui hendrerit orci nec eget diam lectus eu.</p>

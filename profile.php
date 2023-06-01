@@ -281,7 +281,7 @@
                                     <img class="delete" src="images/delete.svg" alt="">
                                 </div>
                             </div>
-                            <a class="add-card profile-btn" data-bs-toggle="modal" data-bs-target="#myModal" href="#?"><img src="images/s-plus.png" alt=""> Add A New Card</a>
+                            <a class="add-card profile-btn" data-bs-toggle="modal" data-bs-target="#myModal2" href="#?"><img src="images/s-plus.png" alt=""> Add A New Card</a>
 
                         </form>
                     </div>

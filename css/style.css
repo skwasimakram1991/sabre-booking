@@ -2522,6 +2522,7 @@ section.booking_details .detbx .logo_address .details_desc h6 {
   line-height: 46px;
   color: #000000;
   margin: 0 0 30px;
+  max-width: 650px;
 }
 .guest-wg hr {
   margin: 2rem 0;
@@ -2610,6 +2611,7 @@ section.booking_details .detbx .logo_address .details_desc h6 {
   font-size: 16px;
   line-height: 24px;
   color: #002455;
+  text-decoration: none;
 }
 .guest-wg .guest-feature-details a {
   display: inline-block;
@@ -2923,6 +2925,72 @@ section.booking_details .detbx .logo_address .details_desc h6 {
 .modal.src-pop .modal-dialog .modal-content .modal-body .btn.cancel-btn {
   background: #d1d1d1;
   color: #000000;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec {
+  margin-top: 12px;
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label:hover input ~ .checkmark {
+  background-color: #fff;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label input:checked ~ .checkmark {
+  background-color: #002b4e;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label input:checked ~ .checkmark:after {
+  display: block;
+}
+.modal.src-pop .modal-dialog .modal-content .modal-body .check-sec label .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(35deg);
+  border-radius: 0;
 }
 
 .log-in-header {

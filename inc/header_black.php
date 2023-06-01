@@ -121,3 +121,62 @@
             </div>
         </div>
     </div>
+
+
+     
+    <!-- The Modal -->
+    <div class="modal fade src-pop" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Card</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="">card number*</label>
+                                <input type="text" placeholder="4141 5252 7777 0000">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Exp.Date*</label>  
+                                <input type="text" value="" class="calendar" placeholder="12/27" >
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">CVC*</label>  
+                                <input type="text"  value="" placeholder="123" >
+                            </div>
+                           <div class="col-md-12">
+                             <label for="">name on card*</label>  
+                                <input type="text"  value="" placeholder="john wick" >
+                           </div>
+                           <div class="col-12">
+                                <label for="">Country or Region*</label>
+                                <select name="" id="">
+                                    <option value="">united states</option>
+                                    <option value="">2 Person</option>
+                                    <option value="">3 Person</option>
+                                    <option value="">4 Person</option>
+                                    <option value="">5 Person</option>
+                                </select>
+                            </div>
+                            <div class="col-12 check-sec">
+                                <label>
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                            Four Seasons Preferred
+                                        </label>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" value="Add Card" class="btn">
+                            </div>
+                           
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
