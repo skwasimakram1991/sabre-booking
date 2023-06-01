@@ -17,7 +17,7 @@
         </div>
     </div>
 </section>
-<section class="todays_details booking-confirmed">
+<section class="collection booking-confirmed">
     <div class="container">
         <h2>Booking Confirmed</h2>
         <p>Lorem ipsum dolor sit amet consectetur. Tincidunt tempor felis dignissim nunc cum felis. Orci lectus iaculis mauris semper eget netus elementum purus in. Aliquam purus hendrerit sed congue sit in nunc consectetur purus.</p>
@@ -44,7 +44,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="content1">
-                        <h3><img src="images/small-img.png" alt="">
+                        <h3><img src="images/small-img.jpg" alt="">
                             John Wick</h3>
                         <h4>Superior room - 1 double bed or <span>2 twin beds</span></h4>
                     </div>
