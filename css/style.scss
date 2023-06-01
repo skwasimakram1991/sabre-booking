@@ -866,6 +866,19 @@ footer {
             transform: translateY(-50%);
         }
     }
+
+    .dest_world {
+        height: 100vh;
+        .img-sec {
+            height: 100%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
     .normalelm {
         .img-sec {
             display: table;
@@ -2218,6 +2231,9 @@ section {
             border-radius: 12px;
             padding: 18px 24px;
             text-align: start;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;
             h4 {
                 font-weight: 300;
                 font-size: 32px;
@@ -3512,6 +3528,8 @@ section {
             top: 24px;
             left: 12px;
             z-index: 1;
+            accent-color: rgb(179 135 69);
+            // accent-color: green;
         }
         .txt {
             padding: 16px 19px 12px 46px;

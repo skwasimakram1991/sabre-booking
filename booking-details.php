@@ -117,7 +117,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" class="btn">
+                            <input type="submit" value="Continue To Payment" class="btn">
                         </div>
                     </div>
                 </div>   

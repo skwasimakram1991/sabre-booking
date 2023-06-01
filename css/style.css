@@ -830,6 +830,17 @@ footer h6 {
   top: 50%;
   transform: translateY(-50%);
 }
+.destination .dest_world {
+  height: 100vh;
+}
+.destination .dest_world .img-sec {
+  height: 100%;
+}
+.destination .dest_world .img-sec img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .destination .normalelm .img-sec {
   display: table;
   width: 100%;
@@ -2064,6 +2075,9 @@ section.booking-confirmed .box {
   border-radius: 12px;
   padding: 18px 24px;
   text-align: start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
 }
 section.booking-confirmed .box h4 {
   font-weight: 300;
@@ -3307,6 +3321,7 @@ section.booking_details .detbx .logo_address .details_desc h6 {
   top: 24px;
   left: 12px;
   z-index: 1;
+  accent-color: rgb(179, 135, 69);
 }
 .profile-section .radio-sec .txt {
   padding: 16px 19px 12px 46px;
