@@ -202,6 +202,57 @@ $(document).ready(function() {
     
     });
 
+    //suman
+    
+
+    $(".toggle-password").click(function() {
+
+$(this).toggleClass("fa-eye");
+if ($(this).parent('.form-row').find('input').attr("type") == "password") {
+    $(this).parent('.form-row').find('input').attr("type", "text");
+} else {
+    $(this).parent('.form-row').find('input').attr("type", "password");
+}
+});
+
+
+  // preview
+
+  function readURL(input, image_address) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        image_address.attr("src", e.target.result);
+        image_address.hide();
+        image_address.fadeIn(650);
+      };
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+   $(".profile input[type=file]").change(function () {
+    var element = $(this).parent().parent().find(".image-preview");
+    readURL(this, element);
+    element.show();
+  });
+
+  $(".profile-ban input[type=file]").change(function () {
+    var element = $(this).parent().parent().find(".image-preview");
+    readURL(this, element);
+    element.show();
+  });
+
+  $(".radio-sec").click(function(){
+     $(this).addClass("active").siblings(".active").removeClass("active").find("input[type=radio]").removeAttr('checked');
+     if($(".radio-sec").hasClass("active")){
+      $(this).find("input[type=radio]").attr("checked","true");
+    }
+  });
+
+  $(".account-details .profile-btn").click(function(){
+    $(this).parent().parent().find("input"). removeAttr("disabled");
+});
+
+
     
 });
 

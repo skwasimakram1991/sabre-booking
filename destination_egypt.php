@@ -12,7 +12,7 @@
                         <li><a href="#?">Africa</a></li>
                         <li>Egypt</li>
                     </ul>
-                    <!-- <a href="#" class="banner_back"><img src="images/arrow_banner.svg" alt="" /> All The World</a> -->
+                    <a href="#" class="banner_back"><img src="images/arrow_banner.svg" alt="" /> All The World</a>
                 </div>
             </div>
         </div>
