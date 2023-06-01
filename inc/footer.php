@@ -46,6 +46,7 @@
 <script src="js/jquery.slimNav_sk78.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
 
@@ -129,6 +130,12 @@ $(document).ready(function() {
         }
     });
 
+    $('.filter-row h6').click(function(){
+        $(this).parent('.filter-row').find('ul, .range-slider').slideToggle();
+        $(this).parent().find('.showbtnmore').toggle();
+        $(this).find('i').toggleClass("fa-chevron-up fa-chevron-down")
+    })
+
     // Show initial values
     var initialValues = slider.slider("option", "values");
     $( ".range-left" ).html( "$" + initialValues[ 0 ] );
@@ -162,24 +169,42 @@ $(document).ready(function() {
         });
     });
 
-    /*! Accordion !*/
-  $(".frequently-section .acc_trigger:first").addClass("closed").next().show();
-    $(".faq_item > .acc_trigger").bind("click", function () {
-        if ($(this).hasClass("closed")) {
-        $(".faq_item").children(".acc_trigger").removeClass("closed");
-        $(".faq_item").children(".acc_container").slideUp(300);
-        $(this).removeClass("closed");
-        $(this).next(".acc_container").slideUp(300);
-        return false;
-        } else {
-        $(".faq_item").children(".acc_trigger").removeClass("closed");
-        $(".faq_item").children(".acc_container").slideUp(300);
-        $(this).addClass("closed");
-        $(this).next(".acc_container").slideDown(300);
-        return false;
-        }
+    // add by Ali
+    // fancybox
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+    });  
+
+    // add by Ali
+    $('input[name="pick-date"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true,
+        //maxYear: parseInt(moment().format('YYYY'),10)
     });
+
+    $(".showBtn2").click(function () {
+        var button = $(this);
+        var listContainer = button.prev(".expanded_list2 ul");
+        var listItems = listContainer.find("li");
+        var numToShow = 3;
+
+        listItems.each(function (index) {
+        if (index >= numToShow) {
+            $(this).toggle(200);
+        }
+        });
+
+        if (button.text() === "Show All 15 Amenities ") {
+        button.text("Show Less Amenities ");
+        } else {
+        button.text("Show All 15 Amenities ");
+        }
+    
+    });
+
+    
 });
+
 
 
 </script>

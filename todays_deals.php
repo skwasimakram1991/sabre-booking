@@ -28,7 +28,7 @@
                         <h3>Filters</h3>
                         <div class="filtergrp">
                             <div class="filter-row">
-                                <h6>Price</h6>
+                                <h6>Price <i class="fa-sharp fa-solid fa-chevron-up"></i></h6>
                                 <div class="range-slider">
                                     <div id="slider-range" class="range-bar"></div>
                                     <div class="range-value">
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="filter-row">
-                                <h6>Preferred partner collection</h6>
+                                <h6>Preferred partner collection <i class="fa-sharp fa-solid fa-chevron-up"></i></h6>
                                 <ul>
                                     <li>
                                         <label>
@@ -71,7 +71,7 @@
                                 </ul>
                             </div>
                             <div class="filter-row">
-                                <h6>Offer type</h6>
+                                <h6>Offer type <i class="fa-sharp fa-solid fa-chevron-up"></i></h6>
                                 <ul>
                                     <li>
                                         <label>

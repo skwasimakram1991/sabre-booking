@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
 
@@ -67,11 +68,54 @@
     <div class="modal fade src-pop" id="myModal">
         <div class="modal-dialog">
             <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book Hotel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <!-- Modal body -->
                 <div class="modal-body">
                     <form action="">
-                        <input type="text" placeholder="Search ...">
-                        <input type="submit" value="">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="">Location*</label>
+                                <input type="text" placeholder="Balvi" class="location">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Date*</label>  
+                                <input type="text" name="pick-date" value="" placeholder="Check In" class="calendar">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label for="">Date*</label>  
+                                <input type="text" name="pick-date" value="" placeholder="Check out" class="calendar">
+                            </div>
+                            <div class="col-12">
+                                <label for="">Room(s)</label>
+                                <select name="" id="">
+                                    <option value="">1 Room</option>
+                                    <option value="">2 Room</option>
+                                    <option value="">3 Room</option>
+                                    <option value="">4 Room</option>
+                                    <option value="">5 Room</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="">guest(s)*</label>
+                                <select name="" id="">
+                                    <option value="">1 Person</option>
+                                    <option value="">2 Person</option>
+                                    <option value="">3 Person</option>
+                                    <option value="">4 Person</option>
+                                    <option value="">5 Person</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <input type="submit" value="Book Now" class="btn">
+                            </div>
+                            <div class="col-6">
+                                <button type="button" class="btn cancel-btn" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+                            </div>
+                        </div>
+                        
                     </form>
                 </div>
             </div>
