@@ -47,6 +47,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -95,23 +96,43 @@ $(document).ready(function() {
     
     });
 
-    // $('.hotel_img_slider').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     fade: false,
-    //     infinite: false,
-    //     speed: 1000,
-    //     asNavFor: '.slider-thumb',  
-    // });
-    // $('.slider-thumb').slick({
-    //     slidesToShow: 7,
-    //     slidesToScroll:1,
-    //     asNavFor: '.hotel_img_slider',
-    //     dots: false,
-    //     centerMode: false,
-    //     focusOnSelect: true
-    // });
+    $(".showbtnmore").click(function () {
+        var button = $(this);
+        var listContainer = button.prev(".filter-row ul");
+        var listItems = listContainer.find("li");
+        var numToShow = 4;
+
+        listItems.each(function (index) {
+        if (index >= numToShow) {
+            $(this).toggle(200);
+        }
+        });
+
+        if (button.text() === "+24 more") {
+        button.text("Less");
+        } else {
+        button.text("+24 more");
+        }
+    
+    });
+
+    //-----JS for Price Range slider-----
+
+    var slider = $( "#slider-range" ).slider({
+        range: true,
+        min: 0,
+        max: 500,
+        values: [ 0, 500 ],
+        slide: function( event, ui ) {
+            $( ".range-left" ).html( "$" + ui.values[ 0 ] );
+            $( ".range-right" ).html( "$" + ui.values[ 1 ] );
+        }
+    });
+
+    // Show initial values
+    var initialValues = slider.slider("option", "values");
+    $( ".range-left" ).html( "$" + initialValues[ 0 ] );
+    $( ".range-right" ).html( "$" + initialValues[ 1 ] );
 
 
 
@@ -140,6 +161,24 @@ $(document).ready(function() {
             focusOnSelect: true
         });
     });
+
+    /*! Accordion !*/
+  $(".frequently-section .acc_trigger:first").addClass("closed").next().show();
+    $(".faq_item > .acc_trigger").bind("click", function () {
+        if ($(this).hasClass("closed")) {
+        $(".faq_item").children(".acc_trigger").removeClass("closed");
+        $(".faq_item").children(".acc_container").slideUp(300);
+        $(this).removeClass("closed");
+        $(this).next(".acc_container").slideUp(300);
+        return false;
+        } else {
+        $(".faq_item").children(".acc_trigger").removeClass("closed");
+        $(".faq_item").children(".acc_container").slideUp(300);
+        $(this).addClass("closed");
+        $(this).next(".acc_container").slideDown(300);
+        return false;
+        }
+    });
 });
 
 
@@ -158,6 +197,7 @@ $(function() {
     }); 
     
 });
+
 </script>
 
 </body>

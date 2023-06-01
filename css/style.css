@@ -1389,6 +1389,7 @@ footer h6 {
 
 .todays_details {
   padding: 80px 0;
+  text-align: center;
 }
 .todays_details h2 {
   font-family: "Jost";
@@ -1401,18 +1402,20 @@ footer h6 {
   position: relative;
   padding-bottom: 8px;
   margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
   color: #343d4d;
 }
 .todays_details h2:after {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 389px;
+  width: auto;
   height: 2px;
   background-color: #bd965c;
   margin: 0 auto;
-  left: 0;
-  right: 0;
+  left: 40px;
+  right: 40px;
 }
 .todays_details h2 + p {
   max-width: 820px;
@@ -1426,19 +1429,225 @@ footer h6 {
   line-height: 24px;
   /* or 150% */
   text-align: center;
+  margin-bottom: 0;
   color: #343d4d;
 }
-.todays_details .hotel_list h3 {
+.todays_details .filter {
+  text-align: left;
+}
+.todays_details .filter h3 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 300;
-  font-size: 36px;
-  line-height: 36px;
-  /* identical to box height, or 100% */
+  font-size: 32px;
+  line-height: 46px;
   color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
-.todays_details .hotel_list h6 {
+.todays_details .filter h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+.todays_details .filter .range-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.todays_details .filter .btn {
+  background: #bd965c;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+}
+.todays_details .filter .filter-row {
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.todays_details .filter .filter-row:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+.todays_details .filter .filter-row .showbtnmore {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Gold */
+  color: #bd965c;
+}
+.todays_details .filter .filter-row ul {
+  margin-top: 15px;
+}
+.todays_details .filter .filter-row ul li {
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+.todays_details .filter .filter-row ul li:nth-child(n+5) {
+  display: none;
+}
+.todays_details .filter .filter-row ul li label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+.todays_details .filter .filter-row ul li label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.todays_details .filter .filter-row ul li .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.todays_details .filter .filter-row ul li label:hover input ~ .checkmark {
+  background-color: #fff;
+}
+.todays_details .filter .filter-row ul li label input:checked ~ .checkmark {
+  background-color: #002b4e;
+}
+.todays_details .filter .filter-row ul li .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.todays_details .filter .filter-row ul li label input:checked ~ .checkmark:after {
+  display: block;
+}
+.todays_details .filter .filter-row ul li label .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(35deg);
+  border-radius: 0;
+}
+.todays_details .filter .range-bar {
+  border: none;
+  background: #000;
+  height: 3px;
+  width: 96%;
+  margin-left: 8px;
+}
+.todays_details .filter .range-bar .ui-slider-range {
+  background: #002455;
+}
+.todays_details .filter .range-bar .ui-slider-handle {
+  border: none;
+  border-radius: 25px;
+  background: #002455;
+  border: 2px solid #002455;
+  height: 17px;
+  width: 17px;
+  top: -0.52em;
+  cursor: pointer;
+}
+.todays_details .filter .range-bar .ui-slider-handle + span {
+  background: #002455;
+}
+.todays_details .col-md-6 .trenddeal_bx {
+  margin-top: 40px;
+}
+.todays_details .col-md-6:nth-child(1) .trenddeal_bx, .todays_details .col-md-6:nth-child(2) .trenddeal_bx {
+  margin-top: 0;
+}
+.todays_details .trenddeal_bx {
+  background: #ffffff;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.todays_details .trenddeal_bx a.btn {
+  background: #bd965c;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  color: #ffffff;
+  display: block;
+}
+.todays_details .trenddeal_bx .trendimg {
+  margin-bottom: 12px;
+  position: relative;
+}
+.todays_details .trenddeal_bx .trendimg img {
+  width: 100%;
+}
+.todays_details .trenddeal_bx .trendimg span {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 4px 8px;
+}
+.todays_details .trenddeal_bx .trenstxt {
+  padding: 12px;
+}
+.todays_details .trenddeal_bx .trenstxt h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 8px;
+}
+.todays_details .trenddeal_bx .trenstxt h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -1447,62 +1656,19 @@ footer h6 {
   /* identical to box height, or 150% */
   color: #757575;
   opacity: 0.75;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
-.todays_details .hotel_list h6 i {
+.todays_details .trenddeal_bx .trenstxt h6 i {
   color: black;
   opacity: 1;
 }
-.todays_details .hotel_list .expanded_list {
+.todays_details .trenddeal_bx .trenstxt .night_book {
+  margin-bottom: 12px;
   display: flex;
-  gap: 15px;
-}
-.todays_details .hotel_list .expanded_list ul {
-  margin-bottom: 43px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
-  max-width: 460px;
-}
-.todays_details .hotel_list .expanded_list ul li {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  color: #757575;
-}
-.todays_details .hotel_list .expanded_list ul li::before {
-  content: ".";
-  display: inline-block;
-  vertical-align: top;
-  line-height: 20px;
-  font-size: 50px;
-  margin: -13px 10px 0 0;
-}
-.todays_details .hotel_list .expanded_list ul li:nth-child(n+5) {
-  display: none;
-}
-.todays_details .hotel_list .expanded_list a {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  /* Dark */
-  color: #002455;
-}
-.todays_details .hotel_list .code_price {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #cccccc;
-  display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
-.todays_details .hotel_list .code_price .code {
+.todays_details .trenddeal_bx .trenstxt .night_book .code {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -1515,25 +1681,491 @@ footer h6 {
   border-radius: 24px;
   padding: 6px 9px;
 }
-.todays_details .hotel_list .code_price .price h6 {
+.todays_details .trenddeal_bx .trenstxt .night_book .price h6 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-  text-align: right;
+  text-align: left;
   color: #757575;
   margin-bottom: 0;
 }
-.todays_details .hotel_list .code_price .price h4 {
+.todays_details .trenddeal_bx .trenstxt .night_book .price h4 {
   font-family: "Jost";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   line-height: 35px;
   /* identical to box height */
-  text-align: right;
+  text-align: left;
+  margin-bottom: 0;
   /* Blue */
   color: #0047ab;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  align-items: center;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities h6 {
+  margin-bottom: 0;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities h6 i {
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities .rating {
+  width: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities .rating span {
+  background: rgba(189, 150, 92, 0.25);
+  border: 1px solid #bd965c;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bd965c;
+  padding: 7px 5.5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities .rating img {
+  width: 40px;
+}
+.todays_details .trenddeal_bx .trenstxt .rating_amenities .rating p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+}
+
+.other_deals {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.other_deals h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+  display: inline-block;
+  text-align: center;
+  color: #343d4d;
+}
+.other_deals h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 2px;
+  background-color: #bd965c;
+  margin: 0 auto;
+  left: 40px;
+  right: 40px;
+}
+.other_deals h2 + p {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.other_deals .col-md-4 .trenddeal_bx {
+  margin-top: 40px;
+}
+.other_deals .col-md-4:nth-child(1) .trenddeal_bx, .other_deals .col-md-4:nth-child(2) .trenddeal_bx, .other_deals .col-md-4:nth-child(3) .trenddeal_bx {
+  margin-top: 0;
+}
+.other_deals .trenddeal_bx {
+  background: #ffffff;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.other_deals .trenddeal_bx a.btn {
+  background: #bd965c;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  /* identical to box height, or 180% */
+  color: #ffffff;
+  display: block;
+}
+.other_deals .trenddeal_bx .trendimg {
+  margin-bottom: 12px;
+  position: relative;
+}
+.other_deals .trenddeal_bx .trendimg img {
+  width: 100%;
+}
+.other_deals .trenddeal_bx .trendimg span {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 4px 8px;
+}
+.other_deals .trenddeal_bx .trenstxt {
+  padding: 12px;
+}
+.other_deals .trenddeal_bx .trenstxt h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  color: #000000;
+  margin-bottom: 8px;
+}
+.other_deals .trenddeal_bx .trenstxt h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #757575;
+  opacity: 0.75;
+  margin-bottom: 12px;
+}
+.other_deals .trenddeal_bx .trenstxt h6 i {
+  color: black;
+  opacity: 1;
+}
+.other_deals .trenddeal_bx .trenstxt .night_book {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.other_deals .trenddeal_bx .trenstxt .night_book .code {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Dark */
+  color: #002455;
+  background: rgba(0, 71, 171, 0.25);
+  border-radius: 24px;
+  padding: 6px 9px;
+}
+.other_deals .trenddeal_bx .trenstxt .night_book .price h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: left;
+  color: #757575;
+  margin-bottom: 0;
+}
+.other_deals .trenddeal_bx .trenstxt .night_book .price h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+  text-align: left;
+  margin-bottom: 0;
+  /* Blue */
+  color: #0047ab;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  align-items: center;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities h6 {
+  margin-bottom: 0;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities h6 i {
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities .rating {
+  width: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities .rating span {
+  background: rgba(189, 150, 92, 0.25);
+  border: 1px solid #bd965c;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bd965c;
+  padding: 7px 5.5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities .rating img {
+  width: 40px;
+}
+.other_deals .trenddeal_bx .trenstxt .rating_amenities .rating p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #757575;
+}
+
+section.booking-confirmed {
+  padding: 80px 0 0;
+}
+section.booking-confirmed h2 + p {
+  max-width: 1090px;
+  margin: 0 auto 46px;
+  text-align: center;
+}
+section.booking-confirmed h3 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  color: #112211;
+  text-align: start;
+  margin: 0 0 16px;
+}
+section.booking-confirmed p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+  text-align: start;
+  margin: 0 0 45px;
+}
+section.booking-confirmed p i {
+  margin: 0 7px 0 2px;
+}
+section.booking-confirmed h4 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #002455;
+  text-align: end;
+  margin: 0 0 16px;
+}
+section.booking-confirmed .butten {
+  background: #bd965c;
+  border-radius: 30px;
+  line-height: 36px;
+  padding: 5px 32px;
+  display: table;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  width: 100%;
+  max-width: 148px;
+  margin: 0 0 0 auto;
+}
+section.booking-confirmed .box {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 18px 24px;
+  text-align: start;
+}
+section.booking-confirmed .box h4 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  color: #112211;
+  text-align: start;
+}
+section.booking-confirmed .box h4 span {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+  margin: 4px 0 0;
+}
+section.booking-confirmed .box img {
+  margin: 16px 0;
+}
+section.booking-confirmed .card {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+  height: 100%;
+}
+section.booking-confirmed .card .content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background: #0047ab;
+  border-radius: 12px 12px 0 0;
+}
+section.booking-confirmed .card .content1 h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  margin: 0;
+}
+section.booking-confirmed .card .content1 h4 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+}
+section.booking-confirmed .card .content1 h4 span {
+  display: block;
+}
+section.booking-confirmed .card .content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 14px 40px 24px;
+}
+section.booking-confirmed .card .content2 .box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 0;
+  padding: 0;
+  background: #ffffff;
+}
+section.booking-confirmed .card .content2 .box h4 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+  margin: 0;
+}
+section.booking-confirmed .card .content2 .box h4 span {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #112211;
+}
+section.booking-confirmed .card .content3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 20px 30px;
+}
+section.booking-confirmed .card .content3 h4 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  color: #112211;
+  text-align: start;
+  margin: 0;
+}
+section.booking-confirmed .card .content3 h4 span {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(17, 34, 17, 0.6);
+  margin: 4px 0 0;
+}
+section.booking-confirmed figure {
+  height: 100%;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+  padding: 74px 72px;
+  margin: 0;
+}
+
+section.booking-confirmed-sec2 {
+  padding: 60px 0 80px;
+}
+section.booking-confirmed-sec2 h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 46px;
+  margin-bottom: 16px;
+  color: #112211;
+}
+section.booking-confirmed-sec2 h3:first-child {
+  margin-bottom: 34px;
+}
+section.booking-confirmed-sec2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+}
+section.booking-confirmed-sec2 p:last-child {
+  margin-bottom: 0;
+}
+section.booking-confirmed-sec2 ul {
+  margin-bottom: 34px;
+}
+section.booking-confirmed-sec2 ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 20px;
+}
+section.booking-confirmed-sec2 ul li:last-child {
+  margin-bottom: 0;
+}
+section.booking-confirmed-sec2 ul li::before {
+  content: ".";
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */
