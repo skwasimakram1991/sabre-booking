@@ -4,9 +4,9 @@
             <div class="col-lg-4">
                 <ul class="ft-menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Collections</a></li>
-                    <li><a href="#">Today’s Deals</a></li>
+                    <li><a href="destination.php">Destinations</a></li>
+                    <li><a href="collection.php">Collections</a></li>
+                    <li><a href="todays_deals.php">Today’s Deals</a></li>
                     <li><a href="#">Inspire Me</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
