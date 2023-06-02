@@ -795,6 +795,7 @@ footer {
 
 //destination
 .destination {
+    scroll-snap-type: x mandatory;
     .scrollmagic-pin-spacer {
         height: 100%;
     }

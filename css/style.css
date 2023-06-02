@@ -764,6 +764,9 @@ footer h6 {
   margin: 0 5px 0 0;
 }
 
+.destination {
+  scroll-snap-type: x mandatory;
+}
 .destination .scrollmagic-pin-spacer {
   height: 100%;
 }

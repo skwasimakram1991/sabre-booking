@@ -101,17 +101,33 @@
 </section>
 
 <script>
-    window.addEventListener('scroll', function() {
+//     window.addEventListener('scroll', function() {
+//   var dest = document.querySelector('.destination');
+//   var destOffsetTop = dest.offsetTop;
+//   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+//   if (scrollTop >= destOffsetTop) {
+//     dest.classList.add('sticky');
+//   } else {
+//     dest.classList.remove('sticky');
+//   }
+// });
+
+window.addEventListener('scroll', function() {
   var dest = document.querySelector('.destination');
   var destOffsetTop = dest.offsetTop;
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
   if (scrollTop >= destOffsetTop) {
     dest.classList.add('sticky');
+    scrollSectionsOneByOne();
   } else {
     dest.classList.remove('sticky');
+    resetScrollSections();
   }
 });
+
+
 </script>
 
 <?php include 'inc/footer.php';?>

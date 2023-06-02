@@ -10,15 +10,15 @@
                         clicks.</p>
                     <form action="">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-md-6">
                                 <label for="">Location</label>
                                 <input type="text" placeholder="" value="Balvi">
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <label for="">Dates</label>
                                 <input type="text" class="date-picker" name="daterange" value="" />
                             </div>
-                            <div class="col-lg-2">
+                            <div class="col-lg-2 col-md-6">
                                 <label for="">Room(s)</label>
                                 <select name="" id="">
                                     <option value="">1 Room</option>
@@ -28,7 +28,7 @@
                                     <option value="">5 Room</option>
                                 </select>
                             </div>
-                            <div class="col-lg-2">
+                            <div class="col-lg-2 col-md-6">
                                 <label for="">Guest(s) per room</label>
                                 <select name="" id="">
                                     <option value="">1 Person</option>
