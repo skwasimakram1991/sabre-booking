@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wonder Go Lander</title>
-    <link rel="icon" type="image/png" href="images/logo.svg">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
     <link rel="stylesheet" href="css/slimNav_sk78.css">
